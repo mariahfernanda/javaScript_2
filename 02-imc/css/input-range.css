@@ -1,0 +1,47 @@
+.range{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.range label{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.range spam{
+    text-align: center;
+    font-size: 2.5rem;
+}
+/*Chrome*/
+.range input[type = 'range']{
+    appearance: none;
+    background-color: transparent;
+}
+
+.range input[type = 'range']::-webkit-slider-runnable-track {
+    height: 5px;
+    background-color: var(--light-color);
+    cursor: pointer;
+}
+
+.range input[type = 'range']::-webkit-slider-thumb{
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    transform: translate(-6.5px);
+}
+/*firefox*/
+.range input[type = 'range']::-moz-range-track{
+    height: 5px;
+background-color: var(--light-color);
+}
+
+.range input[type = 'range']::-moz-range-thumb{
+    background-color: var(--primary-color);
+    border: none;
+}

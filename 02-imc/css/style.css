@@ -51,6 +51,7 @@ form {
     align-items: center;
     width: 100%;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -72,12 +73,11 @@ button {
     user-select: none;
 }
 
-.verde {
+#parabens{
     color: green;
-    font: 1.5rem;
+    font-size: 1.5rem;
 }
-
-.vermelho {
+#cuidado{
     color: red;
-    font: 1.5rem;
+    font-size: 1.5rem;
 }
